@@ -1,20 +1,33 @@
-Overview
-A database-driven software solution designed to manage gym operations efficiently.
+# Gym Management System
 
-Key Features
-Trainer Management: Add, edit, view, delete, and count trainers.
+## 📌 Overview
+A lightweight, text-based **Gym Management System** built in **C** using `.dat` files for database storage. It includes **member registration, trainer management, and financial tracking**.
 
-Trainee Management: Track member registrations, profiles, and count.
+## ⚙️ Technologies Used
+- **C Programming Language**
+- **Text File Storage (`.dat` files)**
+- **Batch Scripts (`.bat`) for Automation**
 
-Financial Tracking: Manage revenue, expenses, and net income.
+## 🚀 Features
+✅ Member Registration & Login  
+✅ Trainer & Membership Management  
+✅ File Handling (`.dat` database)  
+✅ Error Handling with Batch Scripts  
 
-Equipment Store: Inventory management with record entry, modification, search, and deletion.
+## 🛠 How to Run
+1. Clone the repository:
+   
+   git clone https://github.com/AbdelazizBarhoumi/Gym-Management-System.git
+   cd gGym-Management-System
+   
+2. Compile the program using GCC:
+   
+gcc gym.c -o gym
 
-Security Features: Password setting, verification, and reset.
+3. Run the executable:
 
-Implementation
-Database-Driven System: Structured storage for trainers, trainees, financials, and equipment.
+./gym
 
-User-Friendly Interface: Allows gym admins to manage data efficiently.
+📷 Screenshots
 
-Security Measures: Protects sensitive information with authentication mechanisms.
+
